@@ -1,0 +1,13 @@
+app.controller('contentController',function($scope,contentService){
+	$scope.contentList=[];//广告集合	
+	$scope.findListById=function(categordId){
+		contentService.findListByCateId(categordId).success(function(response){
+			//根据分类的id来区分前台页面的广告分类
+			$scope.contentList[categordId]=response;
+		})
+	}
+	//首页和搜索页传递
+	$scope.search=function(){
+		location.href="http://localhost:9104/search.html#?keywords="+$scope.keywords;
+	}
+})

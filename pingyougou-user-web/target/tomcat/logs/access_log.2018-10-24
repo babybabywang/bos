@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [24/Oct/2018:17:51:59 +0800] "GET / HTTP/1.1" 302 - http-bio-9106-exec-1 41
+0:0:0:0:0:0:0:1 - - [24/Oct/2018:17:51:59 +0800] "GET /login/cas?ticket=ST-5-cEvXkoem4iaSKShOJ0Cm-cas01.example.org HTTP/1.1" 302 - http-bio-9106-exec-3 30
+0:0:0:0:0:0:0:1 - - [24/Oct/2018:17:51:59 +0800] "GET / HTTP/1.1" 200 30190 http-bio-9106-exec-4 8
+0:0:0:0:0:0:0:1 - - [24/Oct/2018:17:51:59 +0800] "GET /js/service/loginService.js HTTP/1.1" 304 - http-bio-9106-exec-5 11
+0:0:0:0:0:0:0:1 - - [24/Oct/2018:17:51:59 +0800] "GET /js/controller/indexController.js HTTP/1.1" 304 - http-bio-9106-exec-2 9
+0:0:0:0:0:0:0:1 - - [24/Oct/2018:17:52:01 +0800] "GET /login/showName.do HTTP/1.1" 200 18 http-bio-9106-exec-6 1260
+0:0:0:0:0:0:0:1 - - [24/Oct/2018:17:52:02 +0800] "GET /logout/cas HTTP/1.1" 302 - http-bio-9106-exec-8 4
+127.0.0.1 - - [24/Oct/2018:17:52:02 +0800] "POST /login/cas HTTP/1.1" 200 - http-bio-9106-exec-1 2
+127.0.0.1 - - [24/Oct/2018:17:52:02 +0800] "POST /login/cas HTTP/1.1" 200 - http-bio-9106-exec-10 2
